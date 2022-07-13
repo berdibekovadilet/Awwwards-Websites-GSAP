@@ -15,6 +15,19 @@
       font-weight: 700;
     }
   }
+  .nav {
+    width: 25px;
+    @include media("<=phone") {
+      width: 20px;
+    }
+    span {
+      margin-bottom: 0.3rem;
+      background: $black;
+      height: 2px;
+      width: 100%;
+      display: block;
+    }
+  }
   .nav-toggle {
     cursor: pointer;
     position: relative;
